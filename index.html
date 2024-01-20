@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- UTF-8 يدعم جميع اللغة-->
+    <meta charset="UTF-8">
+    <title> git </title>
+    <link rel="stylesheet" href="stayel.css">
+    <style>
+        input [type="text"] {
+            background-color: rgb(66, 169, 169);
+        }
+
+        label {
+            color: #b728cd;
+        }
+
+
+        .fh {
+            color: #9a4e4e;
+            width: 50px;
+        }
+
+        span {
+            color: rgb(49, 191, 191);
+        }
+
+        h1 {
+            color: #cb6b6b;
+        }
+
+        #p {
+            color: antiquewhite;
+            width: 100px;
+            background-color: #9a4e4e;
+        }
+
+        table {
+            background-color: #7c667f;
+            border: rgb(242, 190, 20) 20px;
+        }
+
+        table caption {
+            color: #d7e8db;
+            background-color: rgb(41, 120, 94);
+        }
+
+        #p>il {
+            background-color: rgb(126, 123, 120);
+        }
+
+        p>il {
+            background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>90 Days</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat
+        aliquam animi <il> soluta labore </il>, ea quaerat molestiae! Eius, error
+        fugiat beatae ut quibusdam nihil iusto voluptas voluptates aliquid
+        debitis.</p>
+    <p id="p">Lorem <il>hello</il>ipsum dolor sit, amet consectetur adipisicing elit. Officia
+        expedita vitae ipsum nam, magnam eveniet quos labore rem laboriosam
+        dolore incidunt odio optio commodi, saepe animi soluta sit fugiat
+        debitis.</p>
+    <!------------------------------------------------------------->
+    <span class="fh">Lorem ipsum dolor sit amet consectetur adipisicing elit.Provident placeat
+        aliquam animi aliquid soluta labore, ea quaerat molestiae! Eius, error
+        fugiat beatae ut quibusdam nihil iusto voluptas voluptates aliquid
+        debitis.</span>
+    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia
+        expedita vitae ipsum nam, magnam eveniet quos labore rem laboriosam
+        dolore incidunt odio optio commodi, saepe animi soluta sit fugiat
+        debitis.</span>
+    <!------------------------------------------------------------->
+
+    <img src="ida.jpg" alt="ida" height="190" width="200">
+    <hr>
+    <!------------------------------------------------------------->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4R0NRGtjwBk?si=4iEBuZFmo4KJz6vt"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <br><br>
+    <!------------------------------------------------------------->
+
+    <a href="https://www.instagram.com">Instagram</a>
+    <br><br>
+    <!------------------------------------------------------------->
+    <table border="1">
+        <caption>Table Name</caption>
+        <tr>
+            <td> row1 </td>
+            <td> row1 </td>
+            <td> row1 </td>
+            <td> row1 </td>
+        </tr>
+        <tr>
+            <td> row2 </td>
+            <td> row2 </td>
+        </tr>
+        <tr>
+            <td> row3</td>
+            <td> row3 </td>
+            <td> row3 </td>
+            <td> row3 </td>
+        </tr>
+    </table>
+    <!------------------------------------------------------------->
+    <table>
+
+    </table>
+    <br>
+    <!------------------------------------------------------------->
+    <select name="" id="">
+        <option value="hiden">City</option>
+        <option value="">Riyadh</option>
+        <option value="">Medinah</option>
+        <option value="">Makkah</option>
+        <option value="">Dammam</option>
+    </select>
+    <hr>
+    <!------------------------------------------------------------->
+    <form action="test.php" method="post" method="get">
+        <!------action="اكتب اسم الصفحة اللي سيتم الارسال البيانات لها عند الضغط على زر sbmit"
+            method="post" تحمي البيانات وتمنعامن الظور بعد ارسالها في url
+            method="get" هذا النوع الافراضي يظهر البيانات في عنوان الصفحة url بعد ارسالها ------->
+        <div>
+            <label for="user">Name</label>
+            <input id="user" type="text" placeholder="Name">
+        </div>
+        <div>
+            <label for="pass">Passbord</label>
+            <input id="pass" type="password" placeholder="password">
+        </div>
+        <input type="submit">
+        <!---------------------------->
+        <hr>
+
+        <div>
+            <label>Gander:</label>
+            <label>Male</label>
+            <input type="radio" name="Gander">
+            <label>Female</label>
+            <input type="radio" name="Gander">
+        </div>
+        <div>
+            <label for="">soical:</label>
+            <label for="">Instagram</label>
+            <input type="checkbox">
+            <label for="">LinkedIn</label>
+            <input type="checkbox">
+            <label for="">X</label>
+            <input type="checkbox">
+            <label for="">Facebook</label>
+            <input type="checkbox">
+        </div>
+        <br><br>
+    </form>
+    <!------------------------------------------------------------->
+    <form action="">
+        <label for="country">what is your country? </label>
+        <select name="country" id="country">
+            <optgroup label="section">
+                <option value="egpt">egypt</option>
+                <option value="mor">moro</option>
+                <option value="sudi">sudi</option>
+            </optgroup><!--تقسم القائم لمجموعات-->
+            <input type="submit">
+        </select> <!--قائمة منسدلة من البيانات-->
+        <!------------------------------------------------------------->
+        <br>
+        <hr>
+        <form action="">
+            <input list="languge" name="languge">
+            <datalist id="languge">
+                <option value="c">c</option>
+                <option value="java">java</option>
+                <option value="php">php</option>
+            </datalist><!--تقسم القائم لمجموعات-->
+            <input type="submit">
+        </form>
+        <!------------------------------------------------------------->
+        <hr>
+        <form action="">
+            <textarea cols="30" rows="10"></textarea>
+            <textarea name="content" id="" cols="20" rows="10" required placeholder="content..." maxlength="100"
+                minlength="50" autofocus readonly disabled></textarea>
+            <!--required خاصية تلزم المستخدم بتعئة الحقل-->
+            <!--placeholder="اسم توضيحي يظهر داخل الحقل"-->
+            <!--maxlength=" اقصى عدد من الكلمات المسموح بإدخالها"-->
+            <!--minlength=" ادنى عدد من الكلمات المسموح بإدخالها"-->
+            <!--autofocus-->
+            <!--readonly  لايمكن التعديل على المحتوى وعند ارسال البينات ينم ارساله-->
+            <!--disabled  لايمكن التعديل على المحتوى وعند ارسال البينات لاينم ارساله-->
+
+
+            <input type="submit">
+
+        </form>
+        </bode>
+
+</html>
